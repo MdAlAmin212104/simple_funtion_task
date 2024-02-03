@@ -29,7 +29,16 @@ const output = deferentNumber(6)
 ### Task-3
 Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
 */
+function make_avg(marks){
+      let sum = 0;
+      for(let mark of marks){
+            sum += mark;
+      }
+      //console.log(sum);
+      return(sum/marks.length);
 
+}
+console.log(make_avg([23,12,34,21, 43,67,80,70]));
 
 
 /*
