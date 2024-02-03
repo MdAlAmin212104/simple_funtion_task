@@ -8,15 +8,21 @@ function multiply(number1, number2, number3, number4) {
 }
 
 const result = multiply(4, 2, 6, 8);
-console.log(result);
+//console.log(result);
 
 /*
 
 ### Task-2
 Take a number if the number is odd multiply it by 2 and return the result. If the number is even divide it by two and return the result.
 */
-
-
+function deferentNumber(number){
+      if(number % 2 == 1){
+            return (number*2);
+      }
+      return (number/2);
+}
+const output = deferentNumber(6)
+//console.log(output);
 
 
 /*
