@@ -8,7 +8,7 @@ function multiply(number1, number2, number3, number4) {
 }
 
 const result = multiply(4, 2, 6, 8);
-//console.log(result);
+console.log(result);
 
 /*
 
@@ -22,7 +22,7 @@ function deferentNumber(number){
       return (number/2);
 }
 const output = deferentNumber(6)
-//console.log(output);
+console.log(output);
 
 
 /*
@@ -45,10 +45,21 @@ console.log(make_avg([23,12,34,21, 43,67,80,70]));
 ### Task-4  
 Write a function called count_zero() which will take a binary string (Binary string is a string which is consist of only 0 and 1) as parameter and count how many 0’s are there in that string.
 */
-
+function count_zero(string){
+      let count = 0;
+      for (let str of string){
+            //console.log(str);
+            if(str == 0){
+                  count = count + 1;
+            }
+      }
+      return(count);
+}
+console.log(count_zero("01010111000110100000"));
 
 
 /*
 ### Task-5 
 Write a function called odd_even() which takes an integer value and tells whether this value is even or odd. If even return `Even`. If odd return `Odd`
 */
+
