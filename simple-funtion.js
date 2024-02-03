@@ -3,7 +3,12 @@
 Take four parameters. Multiply the four numbers and then return the result 
 
 */
+function multiply(number1, number2, number3, number4) {
+      return number1*number2*number3*number4;
+}
 
+const result = multiply(4, 2, 6, 8);
+console.log(result);
 
 /*
 
